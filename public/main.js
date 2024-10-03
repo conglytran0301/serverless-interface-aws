@@ -1,9 +1,4 @@
-/**
- * Author: TrungQuanDev
- * YouTube: https://www.youtube.com/@trungquandev
- * Blog: https://trungquandev.com
- * CV: https://cv.trungquandev.com
- */
+
 
 // document.onreadystatechange = () => {
 //   if (document.readyState == 'complete') {

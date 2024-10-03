@@ -5,9 +5,9 @@ const apiFinalURL = new URLSearchParams(apiReplacedURL);
 var api_access_token = apiFinalURL.get('access_token');
 var sendData = (userName, email, subject, description) => {
     fetch(
-        'https://7s5pb02ska.execute-api.ap-southeast-1.amazonaws.com/Dev/serverless',
+        'https://fha7w8bzn1.execute-api.ap-southeast-1.amazonaws.com/Dev/serverless',
         {
-            method: "GET",
+            method: "POST",
             body: JSON.stringify({
                 "name": userName,
                 "email": email,

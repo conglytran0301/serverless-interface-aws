@@ -17,9 +17,7 @@ var params = {
 };
 
 cognitoidentityserviceprovider.getUser(params, function(err, data) {
-    if (err) {
-        window.location.href = '';
-    } else {
+    if (!err) {
         console.log(data);
 
         for (var i = 0; i < data.UserAttributes.length; i++) {
